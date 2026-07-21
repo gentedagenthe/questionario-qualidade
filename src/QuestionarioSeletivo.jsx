@@ -462,7 +462,7 @@ export default function QuestionarioSeletivo() {
               <span style={si.prazoIcone}>📅</span>
               <div>
                 <div style={si.prazoLabel}>Prazo para preenchimento</div>
-                <div style={si.prazoData}>até 22 de maio de 2026</div>
+                <div style={si.prazoData}>até 07 de agosto de 2026</div>
               </div>
             </div>
 
