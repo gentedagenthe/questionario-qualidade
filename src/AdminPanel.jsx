@@ -32,6 +32,7 @@ function formatarParaWhatsApp(c) {
 🎂 *Idade:* ${c.idade || "—"}
 💍 *Estado civil:* ${c.estado_civil || "—"}
 👶 *Filhos:* ${c.filhos || "—"}
+🏠 *Mora com quem:* ${c.mora_com_quem || "—"}
 📍 *Cidade/Bairro:* ${c.cidade || "—"} — ${c.bairro || "—"}
 
 📚 *FORMAÇÃO E EXPERIÊNCIA*
@@ -254,6 +255,9 @@ export default function AdminPanel() {
                     <div style={st.cardInfo}>
                       {c.cidade} — {c.bairro} · {c.idade} anos · {c.estado_civil}
                     </div>
+                    <div style={st.cardInfo}>
+                      Mora com quem: {c.mora_com_quem || "Não informado"}
+                    </div>
                     <div style={st.cardTags}>
                       {c.experiencia_qualidade && c.experiencia_qualidade !== "Não possuo" && (
                         <span style={st.tag}>Qualidade: {c.experiencia_qualidade}</span>
@@ -292,6 +296,7 @@ export default function AdminPanel() {
                       <Item label="Idade" valor={c.idade} />
                       <Item label="Estado civil" valor={c.estado_civil} />
                       <Item label="Filhos" valor={c.filhos} />
+                      <Item label="Mora com quem" valor={c.mora_com_quem} />
                       <Item label="Cidade" valor={c.cidade} />
                       <Item label="Bairro" valor={c.bairro} />
                     </Secao>
