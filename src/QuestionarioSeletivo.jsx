@@ -454,6 +454,7 @@ export default function QuestionarioSeletivo() {
               <div style={si.secaoTitulo}>🎁 Benefícios</div>
               <div style={si.beneficiosGrid}>
                 {[
+                  "Seguro de vida e auxílio funeral",
                   "Vale Transporte (se necessário)",
                   "Vale Refeição R$ 25,00/dia",
                   "Assiduidade 10%",
@@ -475,8 +476,8 @@ export default function QuestionarioSeletivo() {
             <div style={si.secao}>
               <div style={si.secaoTitulo}>📚 Requisitos</div>
               <ul style={si.lista}>
-                <li>Ensino Superior completo em Enfermagem, Administração, Gestão da Qualidade ou áreas correlatas</li>
-                <li>Experiência na área da qualidade em serviços de saúde, preferencialmente em clínica de imagem</li>
+                <li>Ensino Superior completo em Administração, Gestão da Qualidade ou Gestão hospitalar</li>
+                <li>Experiência na área da qualidade em serviços de saúde, de no mínimo 6 meses</li>
                 <li>Conhecimento em ferramentas da qualidade e indicadores</li>
                 <li>Vivência com auditorias e processos de acreditação</li>
                 <li>Domínio do Pacote Office, especialmente Excel</li>
@@ -488,7 +489,7 @@ export default function QuestionarioSeletivo() {
               <span style={si.prazoIcone}>📅</span>
               <div>
                 <div style={si.prazoLabel}>Prazo para preenchimento</div>
-                <div style={si.prazoData}>até 07 de agosto de 2026</div>
+                <div style={si.prazoData}>até 25 de setembro de 2026</div>
               </div>
             </div>
 
