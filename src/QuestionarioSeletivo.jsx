@@ -70,6 +70,22 @@ const ETAPAS = [
         obrigatorio: true,
         opcoes: ["Não", "Sim, 1 filho", "Sim, 2 filhos", "Sim, 3 ou mais filhos"],
       },
+      {
+        id: "mora_com_quem",
+        label: "Mora com quem?",
+        tipo: "select",
+        obrigatorio: true,
+        opcoes: [
+          "Sozinho(a)",
+          "Com os pais",
+          "Com cônjuge/companheiro(a)",
+          "Com cônjuge/companheiro(a) e filhos",
+          "Com filhos",
+          "Com outros familiares",
+          "Com amigos/colegas",
+          "Outro",
+        ],
+      },
       { id: "cidade", label: "Cidade", tipo: "text", obrigatorio: true, placeholder: "Ex: Campo Grande" },
       { id: "bairro", label: "Bairro", tipo: "text", obrigatorio: true, placeholder: "Ex: Centro" },
     ],
@@ -760,3 +776,4 @@ const s = {
   successTexto: { fontSize: 14, color: cor.muted, lineHeight: 1.7, marginBottom: 20 },
   successSlogan: { fontSize: 11, color: cor.blue, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, fontFamily: "'Nunito', sans-serif" },
 };
+
